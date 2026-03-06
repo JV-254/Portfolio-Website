@@ -1,0 +1,331 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: brown;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+header>h1{
+    color: bisque;
+}
+nav>a{
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+    background-color: aqua;
+    border:  2px solid greenyellow;
+    border-radius: 30px;
+}
+section{
+    padding: 30px;
+}
+#about>h2{
+    text-align: center;
+    font-size: 50px; 
+    font-weight: bold;
+    color: #333;
+    margin: 60px 0 30px;
+    position: relative;
+}
+#about>h2::after{
+     content: " ";
+    width: 60px;
+    height: 4px;
+    background: #007BFF;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+.about{
+    display: inline-block;
+    text-decoration: none;
+    background-color: hotpink;
+    border: none;
+    border-radius: 40px;
+}
+.about>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about:hover{
+     transform: scale(1.2);
+    transition: 2s;  
+}
+.skills{
+    display: inline-block;
+    text-decoration: none;
+    background-color: hotpink;
+     border: none;
+    border-radius: 40px;
+    align-items: center;
+    list-style-type: none;
+}
+.skills>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skills:hover{
+     transform: scale(1.2);
+    transition: 2s;  
+}
+.project{
+    display: inline-block;
+    text-decoration: none;
+    background-color: hotpink;
+     border: none;
+    border-radius: 40px;
+}
+.project>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project:hover{
+     transform: scale(1.2);
+    transition: 2s;  
+}
+.contact{
+    display: inline-block;
+    text-decoration: none;
+    background-color: hotpink;
+     border: none;
+    border-radius: 40px;
+}
+.contact>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact:hover{
+     transform: scale(1.2);
+    transition: 2s;  
+}
+#skills>h2{
+    text-align: center;
+    font-size: 50px; 
+    font-weight: bold;
+    color: #333;
+    margin: 60px 0 30px;
+    position: relative;
+}
+#skills>h2::after{
+     content: " ";
+    width: 60px;
+    height: 4px;
+    background: #007BFF;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+#contact>h2{
+    text-align: center;
+    font-size: 50px; 
+    font-weight: bold;
+    color: #333;
+    margin: 60px 0 30px;
+    position: relative; 
+}
+#contact>h2::after{
+     content: " ";
+    width: 60px;
+    height: 4px;
+    background: #007BFF;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+.html{
+   background-color: brown;
+   border: 3px solid black;
+   border-radius: 50px;
+   text-decoration: none;
+   text-align: center;
+   color: white;
+   display: inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   margin: 20px;
+   display: inline-block;
+}
+.css{
+   background-color: brown;
+   border: 3px solid black;
+   border-radius: 50px;
+   text-decoration: none;
+   text-align: center;
+   color: white;
+   display: inline-block; 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   margin: 20px;
+   display: inline-block;
+}
+.js{
+    background-color: brown;
+   border: 3px solid black;
+   border-radius: 50px;
+   text-decoration: none;
+   text-align: center;
+   color: white;
+   display: inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   margin: 20px;
+   display: inline-block;
+}
+.html:hover{
+    background-color:hotpink;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.html>li{
+    list-style-type: none;
+}
+.css:hover{
+    background-color:hotpink;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.css>li{
+    list-style-type: none;
+}
+.js>li{
+    list-style-type: none;
+}
+.js:hover{
+    background-color:hotpink;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.projects-container{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+.project-card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(210,60,0,0.9);
+    transition: 0.3s;
+}
+.project-card:hover{
+    transform: translateY(-10px);
+}
+.project-card>a{
+    padding: 10px 15px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 10px rgba(210,60,0,0.9); ;
+}
+.project-card>a:hover{
+    background-color: #0056b3;
+}
+#projects>h2{
+    text-align: center;
+    font-size: 50px; 
+    font-weight: bold;
+    color: #333;
+    margin: 60px 0 30px;
+    position: relative;
+}
+#projects>h2::after{
+    content: " ";
+    width: 60px;
+    height: 4px;
+    background: #007BFF;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+#contact{
+    padding: 60px;
+  
+}
+.contact-container{
+    max-width: 450px;
+    margin: auto;
+    border: none;
+    box-shadow: 30px brown;
+    border-radius: 20px;
+}
+#contactform{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 50px rgba(150,21,10,0.8);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+}
+.details>p>a{
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    background: white;
+    display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+.details>p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+ #contactform>button{
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    max-width: 90px;
+}
+#contactform>button:hover{
+    background-color: hotpink;
+}
+.footer{
+    background: #222;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.footer>p{
+    margin: 0px;
+}
+.footer>p:hover{
+    color: #007BFF;
+    transition: 0.3s;
+}
